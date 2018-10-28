@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE
+    tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- 일반 화면 레이아웃 -->
+	<definition name=".default" template="/WEB-INF/jsp/tiles/default.jsp">
+		<put-attribute name="header" value="/WEB-INF/jsp/tiles/header.jsp" />
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="def.*.*" extends=".default">
+		<put-attribute name="content" value="/WEB-INF/jsp/{1}/{2}.jsp"/>
+	</definition>
+	
+	<definition name="login" template="/WEB-INF/jsp/login/login.jsp"/>
+
+</tiles-definitions>
