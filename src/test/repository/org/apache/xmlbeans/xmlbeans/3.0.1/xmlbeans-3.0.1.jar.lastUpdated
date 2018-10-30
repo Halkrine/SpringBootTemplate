@@ -1,4 +1,0 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sat Oct 27 15:25:29 KST 2018
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1540621529717
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.xmlbeans\:xmlbeans\:jar\:3.0.1 from/to central (https\://repo.maven.apache.org/maven2)\: /Users/halkrine/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.1/aether-48767ae3-6ab6-45b5-8ff0-5a3068f8ef58-xmlbeans-3.0.1.jar-in-progress (No such file or directory)
